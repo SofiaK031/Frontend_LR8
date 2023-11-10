@@ -90,10 +90,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (userCount === 3 && computerCount < 3) {
             alert("Гру закінчено! Ви виграли!");
+            computerNumber.value = "";
+            userNum.value = "";
+            answer1.innerText = "0";
+            answer2.innerText = "0";
             return;
         }
         else if (computerCount === 3 && userCount < 3) {
             alert("Гру закінчено! Ви програли!");
+            computerNumber.value = "";
+            userNum.value = "";
+            answer1.innerText = "0";
+            answer2.innerText = "0";
             return;
         }
 	});

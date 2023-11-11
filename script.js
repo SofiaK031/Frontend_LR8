@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 /*
 	//Контейнер для кулі
 	let ballContainer = document.getElementById("magic-ball");
-	ballContainer.innerHTML += "<a href='#'><img id='ball' src = 'images/magic_ball.png' alt='The magic ball'></a>";
+	ballContainer.innerHTML += "<a href='#'><img id='ball' src = './images/magic_ball.png' alt='The magic ball'></a>";
 	ballContainer.innerHTML += "<div id='answer'></div>";
 	//Куля
 	let ball = document.getElementById("ball");*/
